@@ -26,6 +26,30 @@
             padding: 5px 15px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
+
+        .enter {
+            background-color: blue;
+            width: 240px;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .first_last {
+            width: 100px;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        .email {
+            width: 224px;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
     </style>
 
 </head>
@@ -123,12 +147,11 @@
         <p>Uy tapsirmasin (fayldi) tanlan:</p>
         <input type="file">
         <p><i>Esletpe: Fayl tanlaw majburiy!</i></p>
-        
         <br> <br> <br>
 
         <!-- FORM PORT-II  -->
         <hr>
-        
+        <br> <br> <br>
         <!-- II 1-tapsirma -->
         <input type="text" placeholder="Name">
         <br> <br>
@@ -144,7 +167,18 @@
                 style="color: green;">l</span><span style="color: red;">e</span>
         </h1>
         <input type="text" placeholder="Search Google or type a URL" class="search">
-        
+
+
+        <hr>
+
+        <input type="text" placeholder="First name" class="first_last" required>
+        <input type="text" placeholder="Last name" class="first_last" required> <br> <br>
+        <input type="email" placeholder="Email" class="email" required>
+
+        <br> <br>
+
+        <button class="enter">Dizimnen otiw</button>
+
     </form>
 </body>
 

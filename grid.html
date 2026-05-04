@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+
+<body>
+
+        <!-- 1-tapsirma -->
+    <div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr">
+        <div style="background-color: cyan;">1fr</div>
+        <div style="background-color: red;">1fr</div>
+    </div>
+
+    <hr>
+
+        <!-- 2-tapsirma -->
+    <div style="
+    display: grid;
+    grid-template-columns: 250px 1fr">
+        <div style="background-color: cyan;">250px</div>
+        <div style="background-color: red;">1fr</div>
+    </div>
+
+   <hr>
+
+        <!-- 3-tapsirma -->
+    <div style=" 
+    display: grid; 
+    grid-template-columns: repeat(3, 200px)">
+        <div style="background-color: cyan;">200px</div>
+        <div style="background-color: red;">200px</div>
+        <div style="background-color: green;">200px</div>
+    </div>
+
+    <hr>
+
+        <!-- 4-tapsirma -->
+    <div style="
+     display: grid;
+     grid-template-columns: 1fr 3fr 1fr;">
+        <div style="background-color: cyan;">box 1</div>
+        <div style="background-color: crimson;">box 2</div>
+        <div style="background-color: darkolivegreen;">box 3</div>
+    </div>
+
+    <hr>
+
+        <!-- 5-trapsirma -->
+    <div style=" 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr)">
+        <div style="background-color: cyan;">box 1</div>
+        <div style="background-color: red;">box 2</div>
+        <div style="background-color: green;">box 3</div>
+    </div>
+
+    <hr>
+
+        <!-- 6-tapsirma -->
+    <div style=" 
+    display: grid; 
+    grid-template-columns: 100px 1fr 2fr 50px">
+        <div style="background-color: green;">100px</div>
+        <div style="background-color: red;">1fr</div>
+        <div style="background-color: cornflowerblue;">2fr</div>
+        <div style="background-color: darkorchid;">50px</div>
+    </div>
+</body>
+</html>
